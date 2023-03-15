@@ -1,8 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="86028e4d-be1f-4513-8212-b22d49dcc17e" name="Changes" comment="Completed tests for methods average, allPositive, rowSums, and colSums.">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Array2dUtility.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Array2dUtility.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Array2dUtilityTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Array2dUtilityTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,13 +45,6 @@
   }
 }</component>
   <component name="RunManager" selected="JUnit.Array2dUtilityTest">
-    <configuration name="Array2dUtility" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Array2dUtility" />
-      <module name="Year-11-CS-Unit-8-2D-Arrays-Tutorial-Array2dUtility" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Array2dUtilityTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Year-11-CS-Unit-8-2D-Arrays-Tutorial-Array2dUtility" />
       <option name="PACKAGE_NAME" value="" />
@@ -55,10 +54,53 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Array2dUtilityTest.average" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Year-11-CS-Unit-8-2D-Arrays-Tutorial-Array2dUtility" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Array2dUtilityTest" />
+      <option name="METHOD_NAME" value="average" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Array2dUtilityTest.colSums" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Year-11-CS-Unit-8-2D-Arrays-Tutorial-Array2dUtility" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Array2dUtilityTest" />
+      <option name="METHOD_NAME" value="colSums" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Array2dUtilityTest.evenCountStandard" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Year-11-CS-Unit-8-2D-Arrays-Tutorial-Array2dUtility" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Array2dUtilityTest" />
+      <option name="METHOD_NAME" value="evenCountStandard" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Array2dUtilityTest.rowSums" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Year-11-CS-Unit-8-2D-Arrays-Tutorial-Array2dUtility" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Array2dUtilityTest" />
+      <option name="METHOD_NAME" value="rowSums" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.Array2dUtilityTest" />
-        <item itemvalue="Application.Array2dUtility" />
+        <item itemvalue="JUnit.Array2dUtilityTest.average" />
+        <item itemvalue="JUnit.Array2dUtilityTest.evenCountStandard" />
+        <item itemvalue="JUnit.Array2dUtilityTest.rowSums" />
+        <item itemvalue="JUnit.Array2dUtilityTest.colSums" />
       </list>
     </recent_temporary>
   </component>

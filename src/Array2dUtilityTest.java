@@ -92,7 +92,7 @@ public class Array2dUtilityTest {
     void allPositive() {
         assertTrue(Array2dUtility.allPositive(array2d) == false);
         assertTrue(Array2dUtility.allPositive(array2d2) == false);
-        assertTrue(Array2dUtility.allPositive(array2d3) == true);
+        assertEquals(true, Array2dUtility.allPositive(array2d3));
     }
 
     @org.junit.jupiter.api.Test
@@ -101,23 +101,23 @@ public class Array2dUtilityTest {
         int[] rowSums2 = Array2dUtility.rowSums(array2d2);
         int[] rowSums3 = Array2dUtility.rowSums(array2d3);
 
-        assertTrue(rowSums1[0] == 11);
-        assertTrue(rowSums1[1] == 24);
-        assertTrue(rowSums1[2] == 65);
-        assertTrue(rowSums1[3] == 90);
-        assertTrue(rowSums1[4] == 71);
+        assertEquals(11, rowSums1[0]);
+        assertEquals(24, rowSums1[1]);
+        assertEquals(65, rowSums1[2]);
+        assertEquals(90, rowSums1[3]);
+        assertEquals(71, rowSums1[4]);
 
-        assertTrue(rowSums2[0] == 31);
-        assertTrue(rowSums2[1] == 144);
-        assertTrue(rowSums2[2] == 150);
-        assertTrue(rowSums2[3] == 132);
-        assertTrue(rowSums2[4] == 315);
+        assertEquals(31, rowSums2[0]);
+        assertEquals(144, rowSums2[1]);
+        assertEquals(150, rowSums2[2]);
+        assertEquals(132, rowSums2[3]);
+        assertEquals(315, rowSums2[4]);
 
-        assertTrue(rowSums3[0] == 38);
-        assertTrue(rowSums3[1] == 144);
-        assertTrue(rowSums3[2] == 176);
-        assertTrue(rowSums3[3] == 310);
-        assertTrue(rowSums3[4] == 337);
+        assertEquals(38, rowSums3[0]);
+        assertEquals(144, rowSums3[1]);
+        assertEquals(176, rowSums3[2]);
+        assertEquals(310, rowSums3[3]);
+        assertEquals(337, rowSums3[4]);
     }
 
     @org.junit.jupiter.api.Test
@@ -126,23 +126,23 @@ public class Array2dUtilityTest {
         int[] colSums2 = Array2dUtility.colSums(array2d2);
         int[] colSums3 = Array2dUtility.colSums(array2d3);
 
-        assertTrue(colSums1[0] == 55);
-        assertTrue(colSums1[1] == 12);
-        assertTrue(colSums1[2] == 49);
-        assertTrue(colSums1[3] == 70);
-        assertTrue(colSums1[4] == 75);
+        assertEquals(55, colSums1[0]);
+        assertEquals(12, colSums1[1]);
+        assertEquals(49, colSums1[2]);
+        assertEquals(70, colSums1[3]);
+        assertEquals(75, colSums1[4]);
 
-        assertTrue(colSums2[0] == 65);
-        assertTrue(colSums2[1] == 231);
-        assertTrue(colSums2[2] == 329);
-        assertTrue(colSums2[3] == 32);
-        assertTrue(colSums2[4] == 115);
+        assertEquals(65, colSums2[0]);
+        assertEquals(231, colSums2[1]);
+        assertEquals(329, colSums2[2]);
+        assertEquals(32, colSums2[3]);
+        assertEquals(115, colSums2[4]);
 
-        assertTrue(colSums3[0] == 68);
-        assertTrue(colSums3[1] == 545);
-        assertTrue(colSums3[2] == 172);
-        assertTrue(colSums3[3] == 105);
-        assertTrue(colSums3[4] == 115);
+        assertEquals(68, colSums3[0]);
+        assertEquals(545, colSums3[1]);
+        assertEquals(172, colSums3[2]);
+        assertEquals(105, colSums3[3]);
+        assertEquals(115, colSums3[4]);
     }
 
 }
